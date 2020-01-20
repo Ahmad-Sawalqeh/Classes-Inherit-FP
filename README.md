@@ -8,8 +8,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Ahmad-Sawalqeh/validation-TDD/pull/2)
-- [ci/cd](https://github.com/Ahmad-Sawalqeh/validation-TDD/commit/40d31502b7ee14715dd4591817ed0e9524bc6fbe/checks?check_suite_id=410799685) (GitHub Actions)
+- [submission PR]()
+- [ci/cd]() (GitHub Actions)
 
 ### Setup
 run `npm i`
