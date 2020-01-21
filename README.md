@@ -9,7 +9,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/Ahmad-Sawalqeh/Classes-Inherit-FP/pull/1)
-- [ci/cd](https://github.com/Ahmad-Sawalqeh/Classes-Inherit-FP/commit/5796fbe77f13c9a81d22f64e23c012500df1ae94/checks?check_suite_id=410955036) (GitHub Actions)
+- [ci/cd](https://github.com/Ahmad-Sawalqeh/Classes-Inherit-FP/commit/f3c119f2ae9a27637c8b365e7e45357ea1896fc9/checks?check_suite_id=411514851) (GitHub Actions)
 
 ### Setup
 run `npm i`
