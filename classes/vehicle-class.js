@@ -1,6 +1,25 @@
 'use strict';
 
-class Car {
+// class Car{
+
+// }
+
+class Vehicle{
+  constructor(name, wheels) {
+    this.name = name;
+    this.wheels = wheels;
+  }
+
+  drive(){
+    return 'Moving Forward';
+  }
+
+  stop(){
+    return 'Stopping';
+  }
+
 }
 
-module.exports = Car;
+module.exports = Vehicle;
+
+// module.exports = Car;
