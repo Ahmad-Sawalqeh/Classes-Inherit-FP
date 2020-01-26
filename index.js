@@ -1,8 +1,9 @@
+// eslint-disable-next-line strict
 'use strict';
 
-const VehicleConstructor = require('./vehicle-constructor.js');
+const VehicleConstructor = require('./classes/vehicle-constructor.js');
 
-const VehicleClass = require('./vehicle-class.js');
+const VehicleClass = require('./classes/vehicle-class.js');
 
 // Implement a car and motorcycle using a Constructor
 const mazda1 = new VehicleConstructor.Car('Mazda 3');

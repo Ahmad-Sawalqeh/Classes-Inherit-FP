@@ -1,13 +1,15 @@
+// eslint-disable-next-line strict
 'use strict';
 
-const VehicleConstructor = require('../vehicle-constructor.js');
+const VehicleConstructor = require('../classes/vehicle-constructor.js');
+
 
 let types = ['Constructor'];
 
 describe('Vehicles', () => {
 
   describe('Car', () => {
-    
+
     function getCar(type) {
       switch(type) {
       case 'Constructor':
@@ -16,9 +18,9 @@ describe('Vehicles', () => {
         return {};
       }
     }
-    
+
     types.forEach( type => {
-      
+
       let car = getCar(type);
 
       it(`${type} (Car) has 4 wheels`, () => {
@@ -35,7 +37,7 @@ describe('Vehicles', () => {
 
       it(`${type} (Car) cannot do a wheelie`, () => {
         expect(car.wheelie).toBeUndefined();
-      }); 
+      });
     });
 
   });
@@ -70,7 +72,7 @@ describe('Vehicles', () => {
       it(`${type} (Motorcycle) cannot do a wheelie`, () => {
         expect(motorcycle.wheelie()).toBeTruthy();
       });
-      
+
     });
 
   });

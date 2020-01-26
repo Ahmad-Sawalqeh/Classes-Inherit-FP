@@ -1,8 +1,5 @@
+// eslint-disable-next-line strict
 'use strict';
-
-// class Car{
-
-// }
 
 class Vehicle{
   constructor(name, wheels) {
@@ -22,22 +19,20 @@ class Vehicle{
 
 
 class Car extends Vehicle{
-  constructor(name, wheels) {
+  constructor(name) {
     super(name, 4);
   }
 }
 
 class Motorcycle extends Vehicle{
-  constructor(name, wheels) {
+  constructor(name) {
     super(name, 2);
   }
 
   wheelie(){
-    return 'Wheee!';
+    return 'Whelieie!';
   }
 
 }
 
 module.exports = { Vehicle, Car, Motorcycle };
-
-// module.exports = Car;
